@@ -561,7 +561,7 @@ body {
         <!-- SINGLE F-TAXI LOGO -->
         <img
             class="login-logo"
-            src="assets/images/ftaxi-logo.webp"
+            src="/ftaxi-logo.webp"
             alt="F-Taxi"
         >
 
