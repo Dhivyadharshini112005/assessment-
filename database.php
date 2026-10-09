@@ -1,4 +1,4 @@
-```php
+
 <?php
 
 $host = getenv('DB_HOST') ?: '';
@@ -41,4 +41,4 @@ try {
     http_response_code(500);
     exit('Database connection failed. Please check the database configuration.');
 }
-```
+
