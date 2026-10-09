@@ -1,11 +1,11 @@
 <?php
-require_once __DIR__ . "/database.php";
-
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$error = "";
+require_once __DIR__ . '/database.php';
+
+$error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $login = trim($_POST['login'] ?? '');
